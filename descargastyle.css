@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    background-image: url("Recursos/IMG/logo.png");
+    width: 100px; 
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav3 {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.section {
+    display: flex;
+    padding: 4rem 8rem;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.section img {
+        top: 50%;
+        left: 50%;
+        max-width: 300px;
+        max-height: 200px; 
+        width: auto;
+        height: auto;
+}
+
+.content {
+    flex: 1;
+    z-index: 2;
+}
+
+.title {
+    color: #00897B;;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.app-button {
+    background-color:#004D40;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #E0F2F1;
+    border-radius: 50% 50% 0 0;
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav2 i {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem; 
+}
